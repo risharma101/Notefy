@@ -1,3 +1,4 @@
-Notefy Chrome Extension
+# Notefy Chrome Extension
 
-Chrome extension which gives a short summary of the content on any webpage!
+### Chrome extension which gives a short summary of the content on any webpage!
+
