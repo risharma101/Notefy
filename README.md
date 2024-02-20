@@ -17,47 +17,29 @@ Notefy is a Chrome Extension built with Manifest v3. It is available on the [Chr
 Navigate to any website of your choosing and then just click on the Notefy extension. It will open up a small pop-up and in a few seconds, it will display a summary of the text!
 ![Video Demo](https://github.com/risharma101/Notefy/assets/52262619/a9d8911c-aa94-4364-9eff-d17759c1167a)
 
+<!-- ROADMAP -->
+## Roadmap
+- [X] Pulled text from a webpage and used Open AI Chat Completions API to generate a summary
+- [X] Created pop-up for the extension that when clicked will generate summary and display it
+- [ ] Make UI more visually aesthetic
+- [ ] Add feature that when logo is clicked that the summary will be copied to clipboard
+- [ ] Add Q&A feature
+  - [ ] User can ask input questions about the article
+  - [ ] Use Chat Completions API to answer question and display answer on pop-up
+- [ ] Add history feature so history of summaries requested will be saved somewhere
 
-## Installation
+## Contributing
+### Installation
 1. Create an Open AI API Key at [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 2. Clone the repo
    ```sh
    git clone https://github.com/risharma101/RishGPT
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Create a `.env` file in the main project folder and enter your API Key in it
+3. Create a `.env` file in the main project folder and enter your API Key in it
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
-### Launch
-1. Launch the frontend
-   ```sh
-   npm run start:frontend
-   ```
-2. Launch the backend
-   ```sh
-   npm run start:backend
-   ```
-
-<!-- ROADMAP -->
-## Roadmap
-- [X] Replicated ChatGPT UI
-- [X] Added OpenAI API call for chat completions
-- [ ] Change UI to make it more visually aesthetic and user-customizable
-    - [ ] Add various background and text colors which user can choose
-    - [ ] Allow user to change name and title according to their choosing
-- [ ] Add config for easily customizable prompts instead of user changing prompt code themselves
-    - [ ] Add SQL query generation prompt config
-    - [ ] Add cover letter generation prompt config
-    - [ ] Add other common prompt configs
-- [ ] Add script so user can store past interactions on-prem and access later
-- [ ] Increase max tokens for larger user messages and responses
-
-<!-- CONTRIBUTING -->
-## Contributing
+### Guidelines
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -68,6 +50,8 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+   
+
 
 <!-- LICENSE -->
 ## License
