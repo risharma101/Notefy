@@ -15,10 +15,10 @@ Notefy is a Chrome Extension built with Manifest v3. It is available on the [Chr
 
 ### How to Use
 Navigate to any website of your choosing and then just click on the Notefy extension. It will open up a small pop-up and in a few seconds, it will display a summary of the text!
-<video src="notefy-demo-vid.mov" autoPlay loop style={{ width: '100%', maxHeight: '500px' }} />
 ![Video Demo](https://github.com/risharma101/Notefy/assets/52262619/a9d8911c-aa94-4364-9eff-d17759c1167a)
 
 <!-- ROADMAP -->
+
 ## Roadmap
 - [X] Pulled text from a webpage and used Open AI Chat Completions API to generate a summary
 - [X] Created pop-up for the extension that when clicked will generate summary and display it
