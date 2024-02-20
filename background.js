@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
     if (message.action == "popupClicked") {
         // console.log("extension clicked")
@@ -8,7 +10,7 @@ chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
         // console.log("summary in progress")
         const pageText = message.text;
         // console.log(pageText);
-        const apiKey = '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';
+        const apiKey = process.env;
         const apiUrl = 'https://api.openai.com/v1/chat/completions';
         fetch(apiUrl, {
             method: 'POST',
