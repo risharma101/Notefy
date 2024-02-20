@@ -5,10 +5,10 @@
 
 ## About this Project
 ### Built With
-- [![JavaScript][https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black]]
-- [![HTML][https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white]]
-- [![CSS][https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white]]
-- [![Chrome][https://img.shields.io/badge/Google%20Chrome-4285F4.svg?style=for-the-badge&logo=Google-Chrome&logoColor=white]]
+- [![JavaScript][JavaScript_Logo]][https://developer.mozilla.org/en-US/docs/Web/JavaScript]
+- [![HTML][HTML_Logo]][https://developer.mozilla.org/en-US/docs/Web/HTML]
+- [![CSS][CSS_Logo]][https://developer.mozilla.org/en-US/docs/Web/CSS]
+- [![Chrome][Chrome_Logo]][https://developer.chrome.com/docs/extensions/get-started]
   
 ### Description/Motivation
 RishGPT acts as a clone of OpenAI's ChatGPT but with a custom UI. Currently, the UI is directly replicated from ChatGPT, but the goal is to make it more user friendly and visually aesthetic. Users can also enter customized prompt instructions such as for generating SQL queries or writing cover letters. Additionally, users can store interactions in SQL databases on-prem instead of in the cloud as traditional ChatGPT does.
@@ -115,12 +115,10 @@ Project Link: [https://github.com/risharma101/RishGPT](https://github.com/rishar
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-* FreeCodeCamp for providing tutorial of React, JavaScript, HTML, CSS, and connecting to OpenAI API
+* [Chrome Extension Docs](https://developer.chrome.com/docs/extensions/get-started)
 * [README Template](https://github.com/othneildrew/Best-README-Template)
    
-[OpenAI]: https://img.shields.io/badge/OpenAI-412991.svg?style=for-the-badge&logo=OpenAI&logoColor=white
-[OpenAI-url]: https://platform.openai.com/docs/guides/text-generation
-[Express.js]: https://img.shields.io/badge/Express.js-404D59?style=for-the-badge
-[Express-url]: https://expressjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
+[JavaScript_Logo]: https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black
+[HTML_Logo]: https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white
+[CSS_Logo]: https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white
+[Chrome_Logo]: https://img.shields.io/badge/Google%20Chrome-4285F4.svg?style=for-the-badge&logo=Google-Chrome&logoColor=white
