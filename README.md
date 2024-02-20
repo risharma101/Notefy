@@ -1,7 +1,7 @@
 # Notefy!
 
 #### A Chrome extension which gives a short summary of the content on any webpage! 
-<img src="icons/notefy-demo.png" alt="Image" height="400">
+<img src="notefy-demo.png" alt="Image" height="400">
 
 ## About this Project
 ### Built With
@@ -11,20 +11,14 @@
 - [![Chrome][Chrome_Logo]][Chrome-url]
   
 ### Description/Motivation
-RishGPT acts as a clone of OpenAI's ChatGPT but with a custom UI. Currently, the UI is directly replicated from ChatGPT, but the goal is to make it more user friendly and visually aesthetic. Users can also enter customized prompt instructions such as for generating SQL queries or writing cover letters. Additionally, users can store interactions in SQL databases on-prem instead of in the cloud as traditional ChatGPT does.
+Notefy is a Chrome Extension built with Manifest v3. It is available on the [Chrome Web Store](https://chromewebstore.google.com/detail/notefy/hdcafibdomecmmbfjnbkncbpioepcgaa). Notefy uses OpenAI's Chat Completions API to summarize the text on any webpage within seconds. The motivation behind this extension was for users who didn't want to spend time reading a full news article or blog and just wanted a quick summary. 
 
-This project was built for full-stack experience including frontend development with React, HTML, and CSS, and backend development with Express and API calls with OpenAI's Chat Completions API.
+### How to Use
+Navigate to any website of your choosing and then just click on the Notefy extension. It will open up a small pop-up and in a few seconds, it will display a summary of the text!
+![Video Demo](https://github.com/risharma101/Notefy/assets/52262619/a9d8911c-aa94-4364-9eff-d17759c1167a)
 
 
-
-
-## Getting Started
-### Prerequisites
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-### Installation
+## Installation
 1. Create an Open AI API Key at [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 2. Clone the repo
    ```sh
@@ -47,32 +41,6 @@ This project was built for full-stack experience including frontend development 
    ```sh
    npm run start:backend
    ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-- Basic usage is just through entering questions as you would in ChatGPT
-  - Video Demo: ![video](https://github.com/risharma101/ChatGPT-Clone/assets/52262619/d021fe6b-0591-4630-add8-57eb5efe0229)
-- Custom usage: entering specified prompts
-  - Change the message content in `server.js`
-  - eg. for SQL query generation: change line 21 to
-    ```js
-    messages: [{role: "user", content: "Generate an SQL query to " + req.body.message}],
-    ```
-  - eg. for cover letter generation: change line 21 to
-    ```js
-    messages: [{role: "user", content: "Act as a candidate looking for a job. Write me a cover letter for the following role and qualifications " + req.body.message}],
-    ```
-- Increasing response size: in `server.js`, change line 22
-  ```js
-  max_tokens: YOUR_NUM_TOKENS,
-  ```
-  - Note: token limit (including request and response) for gpt-3.5-turbo is 4096
-- Changing model:
-  - if you have a gpt-4 subscription, you can change the model to gpt-4 for better responses
-  - change server.js line 20
-  ```js
-  model: "gpt-4",
-  ```
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -110,7 +78,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Rishabh Sharma - rishabhsharma@ucla.edu
 
-Project Link: [https://github.com/risharma101/RishGPT](https://github.com/risharma101/RishGPT)
+Project Link: [https://github.com/risharma101/Notefy](https://github.com/risharma101/Notefy)
 
 
 <!-- ACKNOWLEDGMENTS -->
