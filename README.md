@@ -5,10 +5,10 @@
 
 ## About this Project
 ### Built With
-- [![JavaScript][JavaScript_Logo]][https://developer.mozilla.org/en-US/docs/Web/JavaScript]
-- [![HTML][HTML_Logo]][https://developer.mozilla.org/en-US/docs/Web/HTML]
-- [![CSS][CSS_Logo]][https://developer.mozilla.org/en-US/docs/Web/CSS]
-- [![Chrome][Chrome_Logo]][https://developer.chrome.com/docs/extensions/get-started]
+- [![JavaScript][JavaScript_Logo]][JavaScript-url]
+- [![HTML][HTML_Logo]][HTML-url]
+- [![CSS][CSS_Logo]][CSS-url]
+- [![Chrome][Chrome_Logo]][Chrome-url]
   
 ### Description/Motivation
 RishGPT acts as a clone of OpenAI's ChatGPT but with a custom UI. Currently, the UI is directly replicated from ChatGPT, but the goal is to make it more user friendly and visually aesthetic. Users can also enter customized prompt instructions such as for generating SQL queries or writing cover letters. Additionally, users can store interactions in SQL databases on-prem instead of in the cloud as traditional ChatGPT does.
@@ -122,3 +122,7 @@ Project Link: [https://github.com/risharma101/RishGPT](https://github.com/rishar
 [HTML_Logo]: https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white
 [CSS_Logo]: https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white
 [Chrome_Logo]: https://img.shields.io/badge/Google%20Chrome-4285F4.svg?style=for-the-badge&logo=Google-Chrome&logoColor=white
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[Chrome-url]: https://developer.chrome.com/docs/extensions/get-started
