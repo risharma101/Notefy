@@ -34,7 +34,7 @@ Navigate to any website of your choosing and then just click on the Notefy exten
 1. Create an Open AI API Key at [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
 2. Clone the repo
    ```sh
-   git clone https://github.com/risharma101/RishGPT
+   git clone https://github.com/risharma101/Notefy
    ```
 3. Create a `.env` file in the main project folder and enter your API Key in it
    ```js
